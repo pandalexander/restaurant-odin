@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/pandalexander/restaurant-odin/issues"
   },
-  "homepage": "https://github.com/pandalexander/restaurant-odin#readme"
+  "homepage": "https://github.com/pandalexander/restaurant-odin#readme",
+  "devDependencies": {
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
 }
