@@ -4,6 +4,10 @@
   color: #3a3328;
 }
 
+body {
+  height: 100vh;
+}
+
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -22,11 +26,9 @@ nav button {
   font-size: 14px;
   font-weight: 500;
   height: 40px;
-  line-height: 20px;
   list-style: none;
   margin: 0;
   outline: none;
-  padding: 10px 16px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -43,6 +45,13 @@ nav button:hover {
 nav button:active {
   background-color: #e9b107;
   color: #963442;
+}
+
+#content {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
 
 h1 {
