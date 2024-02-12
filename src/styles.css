@@ -54,6 +54,30 @@ nav button:active {
   padding-left: 80px;
 }
 
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.main-container .left {
+  grid-column: 1;
+  justify-self: center;
+}
+
+.main-container img {
+  justify-self: center;
+  grid-row: 1 / 2;
+  grid-column: 2;
+  width: auto;
+  height: auto;
+  height: 50vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 h1 {
   text-align: center;
   font-family: "Chango", sans-serif;
@@ -63,7 +87,6 @@ h1 {
 
 h2 {
   text-align: center;
-
   font-size: 32px;
   color: #3587a2;
 }
@@ -74,4 +97,10 @@ strong {
 
 p {
   font-size: 18px;
+  line-height: 35px;
+}
+
+.padded {
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
