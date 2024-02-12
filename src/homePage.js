@@ -1,6 +1,4 @@
 const buildHomePage = () => {
-  console.log("Hi! FirstLoad.Js Works teeHEe!!");
-
   const content = document.getElementById("content");
 
   const mainContainer = document.createElement("div");
