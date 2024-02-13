@@ -146,6 +146,10 @@ p {
   text-align: center;
 }
 
+#about-us h2 {
+  margin-top: 70px;
+}
+
 .restaurant-image {
   max-width: 100%;
   border-radius: 10px; /* Rounded corners for the image */
