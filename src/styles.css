@@ -91,6 +91,12 @@ h2 {
   color: #3587a2;
 }
 
+h3 {
+  text-align: center;
+  font-size: 22px;
+  color: #3a3328;
+}
+
 strong {
   color: #e9b107;
 }

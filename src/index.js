@@ -1,5 +1,6 @@
 import "./styles.css";
 import { buildHomePage } from "./homePage";
+import { buildMenuPage } from "./menuPage";
 
 const homeButton = document.getElementById("home-button");
 const menuButton = document.getElementById("menu-button");
@@ -11,7 +12,7 @@ function clearPage() {
   content.innerHTML = "";
 }
 
-// buildHomePage();
+buildMenuPage();
 
 homeButton.addEventListener("click", function () {
   clearPage();
