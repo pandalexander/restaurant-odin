@@ -135,3 +135,28 @@ p {
   display: flex;
   flex-direction: column;
 }
+
+.about-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+#about-us {
+  text-align: center;
+}
+
+.restaurant-image {
+  max-width: 100%;
+  border-radius: 10px; /* Rounded corners for the image */
+  margin-bottom: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}

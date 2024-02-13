@@ -12,7 +12,7 @@ function clearPage() {
   content.innerHTML = "";
 }
 
-buildHomePage();
+// buildHomePage();
 
 homeButton.addEventListener("click", function () {
   clearPage();
