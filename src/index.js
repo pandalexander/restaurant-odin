@@ -12,7 +12,7 @@ function clearPage() {
   content.innerHTML = "";
 }
 
-buildMenuPage();
+buildHomePage();
 
 homeButton.addEventListener("click", function () {
   clearPage();
@@ -21,6 +21,7 @@ homeButton.addEventListener("click", function () {
 
 menuButton.addEventListener("click", function () {
   clearPage();
+  buildMenuPage();
 });
 
 aboutButton.addEventListener("click", function () {
