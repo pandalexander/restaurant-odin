@@ -86,9 +86,15 @@ h1 {
 }
 
 h2 {
+  margin-top: 70px;
   text-align: center;
   font-size: 32px;
   color: #3587a2;
+}
+
+.menu-item h2,
+.main-container h2 {
+  margin-top: 25px;
 }
 
 h3 {
@@ -144,10 +150,6 @@ p {
 
 #about-us {
   text-align: center;
-}
-
-#about-us h2 {
-  margin-top: 70px;
 }
 
 .restaurant-image {

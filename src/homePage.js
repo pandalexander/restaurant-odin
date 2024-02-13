@@ -64,6 +64,20 @@ const buildHomePage = () => {
   thirdPaddedContent.textContent =
     "Conveniently located in the heart of Colorado Springs, Casa del Sabor is the perfect destination for family dinners, date nights, and celebrations with friends. Our warm and welcoming staff is dedicated to providing exceptional service, ensuring every visit is a memorable one.";
   thirdPadded.appendChild(thirdPaddedContent);
+
+  // Link to Picture
+  const aboutFooter = document.createElement("footer");
+  content.appendChild(aboutFooter);
+
+  const aboutFooterPara = document.createElement("p");
+  aboutFooter.appendChild(aboutFooterPara);
+
+  const aboutFooterLink = document.createElement("a");
+  aboutFooterLink.href =
+    "https://www.pexels.com/photo/fruit-salads-in-plate-1640774/";
+  aboutFooterLink.target = "_blank";
+  aboutFooterLink.textContent = "Photo Credit: Ella Olsson";
+  aboutFooterPara.appendChild(aboutFooterLink);
 };
 
 export { buildHomePage };
