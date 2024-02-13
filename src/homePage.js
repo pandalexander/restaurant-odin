@@ -1,3 +1,5 @@
+import Background from "./images/background.jpg";
+
 const buildHomePage = () => {
   const content = document.getElementById("content");
 
@@ -18,9 +20,9 @@ const buildHomePage = () => {
     "Discover the Authentic Flavors of <strong>Mexico</strong>";
   leftDiv.appendChild(secondHeader);
 
-  const image = document.createElement("img");
-  image.src = "../src/images/background.jpg";
-  mainContainer.appendChild(image);
+  const backgroundImage = new Image();
+  backgroundImage.src = Background;
+  mainContainer.appendChild(backgroundImage);
 
   const makeYourselfHeader = document.createElement("h2");
   makeYourselfHeader.textContent = "Make Yourself at Home";

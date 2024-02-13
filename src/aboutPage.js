@@ -1,3 +1,5 @@
+import AboutImage from "./images/about-us.jpg";
+
 const buildAboutPage = () => {
   const content = document.getElementById("content");
 
@@ -13,12 +15,11 @@ const buildAboutPage = () => {
   aboutSection.setAttribute("id", "about-us");
   aboutContainer.appendChild(aboutSection);
 
-  const img1 = document.createElement("img");
-  img1.src = "../src/images/about-us.jpg";
-  img1.alt = "Casa del Sabor Restaurant Table";
-  img1.classList.add("restaurant-image");
-
-  aboutSection.appendChild(img1);
+  const aboutImage = new Image();
+  aboutImage.src = AboutImage;
+  aboutImage.alt = "Casa del Sabor Restaurant Table";
+  aboutImage.classList.add("restaurant-image");
+  aboutSection.appendChild(aboutImage);
 
   const p1 = document.createElement("p");
   p1.textContent =
